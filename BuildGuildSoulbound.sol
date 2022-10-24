@@ -7,7 +7,7 @@ pragma solidity ^0.8.4;
 import './ERC721ASoulbound.sol';
 import './utils/Ownable.sol';
 
-contract BuildGuildSoulBound is ERC721ASoulbound, Ownable {
+contract BuildGuildSoulbound is ERC721ASoulbound, Ownable {
     
     string private _baseTokenURI;
 
